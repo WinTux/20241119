@@ -15,7 +15,7 @@ import static org.apache.kafka.streams.kstream.Printed.toSysOut;
 @Component
 @Slf4j
 public class MiPrimerStreamTopology {
-    public static String MENSAJE = "mensaje";
+    public static String MENSAJE = "pruebita";
     public static String OUTPUT_MENSAJE = "output-mensaje";
     @Autowired
     public void procesar(StreamsBuilder streamsBuilder){
